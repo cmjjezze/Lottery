@@ -6,6 +6,8 @@ https://docs.google.com/presentation/d/1B9ZvZ7AoCuiURIWWPPlN3K2K8Ka5cIMDROxsmOvR
 
 
 ## Simple Lottery
+..1
+
 ## Recurring Lottery
 ## RNG Lottery
 ## Powerball Lottery
