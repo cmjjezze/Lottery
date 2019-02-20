@@ -2,12 +2,10 @@
 Design / Process flow for the Lottery
 
 
-#### Link for the process flow's for the lottery : 
-https://docs.google.com/presentation/d/1B9ZvZ7AoCuiURIWWPPlN3K2K8Ka5cIMDROxsmOvRn_Y/edit?usp=sharing
+#### Link for the process flow's for the lottery : https://docs.google.com/presentation/d/1B9ZvZ7AoCuiURIWWPPlN3K2K8Ka5cIMDROxsmOvRn_Y/edit?usp=sharing
 
 
-#### Ethereum Remix Link(for offline testing):
-https://ethereum.github.io/browser-solidity/#optimize=false
+#### Ethereum Remix Link(for offline testing): https://ethereum.github.io/browser-solidity/#optimize=false
 
 
 Participant Address for the Remix:
