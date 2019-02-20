@@ -15,7 +15,8 @@ Disk : 245.1 GB
 
 ### Download or clone this repository : https://github.com/cmjjezze/Lottery.git
 
-#### Ethereum Remix Link(for offline testing): https://ethereum.github.io/browser-solidity/#optimize=false
+### Built With
+* Ethereum Remix Link(for offline testing): https://ethereum.github.io/browser-solidity/#optimize=false
 
 
 Participant Address for the Remix:
