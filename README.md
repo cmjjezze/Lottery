@@ -26,9 +26,10 @@ Participant Address for the Remix:
 * 0xdd870fa1b7c4700f2bd7f44238821c26f7392148
 
 
-
 ## Simple Lottery
-1. 
+1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
+SimpleLottery.sol
+2. 
 
 
 ## Recurring Lottery
