@@ -19,12 +19,13 @@ Disk : 245.1 GB
 
 
 Participant Address for the Remix:
+```bash
 * 0xca35b7d915458ef540ade6068dfe2f44e8fa733c
 * 0x14723a09acff6d2a60dcdf7aa4aff308fddc160c
 * 0x14723a09acff6d2a60dcdf7aa4aff308fddc160c
 * 0x583031d1113ad414f02576bd6afabfb302140225
 * 0xdd870fa1b7c4700f2bd7f44238821c26f7392148
-
+```
 
 ## Simple Lottery
 1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
