@@ -35,5 +35,12 @@ SimpleLottery.sol
 
 
 ## Recurring Lottery
+1. Copy and Paste the code from [RecurringLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/RecurringLottery.sol)
+
+
 ## RNG Lottery
+1. Copy and Paste the code from [RNG.sol](https://github.com/cmjjezze/Lottery/blob/master/RNGLottery.sol)
+
+
 ## Powerball Lottery
+1. Copy and Paste the code from [PowerballLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/PowerballLottery.sol)
