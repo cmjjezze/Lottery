@@ -35,12 +35,21 @@ SimpleLottery.sol
 
 
 ## Recurring Lottery
-1. Copy and Paste the code from [RecurringLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/RecurringLottery.sol)
+1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
+SimpleLottery.sol
+2. Open your browser and enter this link: https://ethereum.github.io/browser-solidity/#optimize=false
+3. Copy and Paste the code from [RecurringLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/RecurringLottery.sol)
 
 
 ## RNG Lottery
-1. Copy and Paste the code from [RNG.sol](https://github.com/cmjjezze/Lottery/blob/master/RNGLottery.sol)
+1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
+SimpleLottery.sol
+2. Open your browser and enter this link: https://ethereum.github.io/browser-solidity/#optimize=false
+3. Copy and Paste the code from [RNG.sol](https://github.com/cmjjezze/Lottery/blob/master/RNGLottery.sol)
 
 
 ## Powerball Lottery
-1. Copy and Paste the code from [PowerballLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/PowerballLottery.sol)
+1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
+SimpleLottery.sol
+2. Open your browser and enter this link: https://ethereum.github.io/browser-solidity/#optimize=false
+3. Copy and Paste the code from [PowerballLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/PowerballLottery.sol)
