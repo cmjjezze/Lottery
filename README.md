@@ -109,7 +109,7 @@ RecurringLottery.sol
 10. Click **buy** button after you set the value of ether, You can buy tickets 3 times because you set`3` participants upon creating the lottery. 
 11. Buy ticket's three times with different addresses, and click the **round** button to know the round number that is playing. 
 12. Pick the winner for the first round by setting `1` in the **drawWinner** textbox button and click it to pick the winner for the specified round.
-13. To delete the round youwould like, you can just select the round number and input it in the **deleteRpund** textbox button `uint256 _round`.
+13. To delete the round youwould like, you can just select the round number and input it in the **deleteRound** textbox button `uint256 _round`.
 
 
 ## RNG(Random Number Generated) Lottery
@@ -150,6 +150,12 @@ RNGLottery.sol
 * **ticketDeadline** - The equivalent of endBlock from earlier contracts. Tickets cannot be purchased after this block number.
 * **revealDeadline** - The reveal phase is new and requires a deadline as well. All reveals must occur after the ticket deadline and before the reveal deadline.
 
+9.  Create the commitments first for the three participants with its **Account** address. 
+
+| createCommitment                          |`address user, uint256 N`|
+
+10. Put a `0.01` for the value of ether.
+10. 
 ## Powerball Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 PowerballLottery.sol
