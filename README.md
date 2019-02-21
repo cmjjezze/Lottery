@@ -65,7 +65,8 @@ SimpleLottery.sol
 9.  Put a `0.01` for the value of ether.
 10. Click **buy** button after you set the value of ether, You can buy tickets as long the duration is not end. It will prompt an error if the duration is ended. You can also change the address upon buying ticket.
 11. Click **drawWinner** button, for choosing the winner after the duration of the lottery has finished.
-
+12. For viewing the winner after choosing the winner for the lottery, Click **winner** button to display the winner's address.
+13. For claiming the lottery price, the winner's address must be selected first from the first table and click the **withdraw** button.
 
 ## Recurring Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
