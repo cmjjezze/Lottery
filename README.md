@@ -46,7 +46,7 @@ SimpleLottery.sol
 7. Enter `60`(seconds) for testing, So that the lottery start and ends after 60 seconds or 1 minute.
 8. Once you click the **Create** button, you will a table below.
  
-      | SimpleLottery at 0x692...77b3a (memory)|                         |
+      | SimpleLottery at ............. (memory)|                         |
       | ---------------------------------------|:-----------------------:|
       | (fallback)                             |                         |
       | TICKET_PRICE                           |                         |
@@ -73,17 +73,54 @@ SimpleLottery.sol
 RecurringLottery.sol
 2.  Open your browser and enter this link: https://ethereum.github.io/browser-solidity/#optimize=false
 3.  Copy and Paste the code from [RecurringLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/RecurringLottery.sol)
+4.  Click on Settings, and Pick `0.4.18+commit.9cf63910`. Go to Compile, and Click `Start Compile`. 
+5.  Go to Run Tab,and select `JavaScript VM` (Follow the table below)
 
+      | Environment  | JavaScript VM           |
+      | -------------|:-----------------------:|
+      | Account      | 0xca3...a733c (100ether)|
+      | Gas limit    | 3000000                 |
+      | Value        | 0            ether      |
+      
+6.  Below the above table, you will see a text `uint256 duration` with a **Create** button.
+7.  Enter `3`(three participants could buy per round for the ticket) for testing, After the 3rd participant have bought the ticket for the lottery. The round will proceed to the next round and you can pick the winner for the previous/first round.
+8.  Once you click the **Create** button, you will a table below.
+ 
+      | SimpleLottery at ............. (memory)|                         |
+      | ---------------------------------------|:-----------------------:|
+      | (fallback)                             |                         |
+      | TICKET_PRICE                           |                         |
+      | ticketingCloses                        |                         |
+      | tickets                                |`uint256`                |
+      | winner                                 |                         |
+      | withdraw                               |                         |
+      | drawWinner                             |                         |
+      | buy                                    |                         |
 
 ## RNG Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 RNGLottery.sol
 2.  Open your browser and enter this link: https://ethereum.github.io/browser-solidity/#optimize=false
 3.  Copy and Paste the code from [RNG.sol](https://github.com/cmjjezze/Lottery/blob/master/RNGLottery.sol)
+4.  Click on Settings, and Pick `0.4.18+commit.9cf63910`. Go to Compile, and Click `Start Compile`. 
+5.  Go to Run Tab,and select `JavaScript VM` (Follow the table below)
 
+      | Environment  | JavaScript VM           |
+      | -------------|:-----------------------:|
+      | Account      | 0xca3...a733c (100ether)|
+      | Gas limit    | 3000000                 |
+      | Value        | 0            ether      |
 
 ## Powerball Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 PowerballLottery.sol
 2.  Open your browser and enter this link: https://ethereum.github.io/browser-solidity/#optimize=false
 3.  Copy and Paste the code from [PowerballLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/PowerballLottery.sol)
+4.  Click on Settings, and Pick `0.4.18+commit.9cf63910`. Go to Compile, and Click `Start Compile`. 
+5.  Go to Run Tab,and select `JavaScript VM` (Follow the table below)
+
+      | Environment  | JavaScript VM           |
+      | -------------|:-----------------------:|
+      | Account      | 0xca3...a733c (100ether)|
+      | Gas limit    | 3000000                 |
+      | Value        | 0            ether      |
