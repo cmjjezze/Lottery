@@ -36,11 +36,11 @@ SimpleLottery.sol
 4. Click on Settings, and Pick `0.4.18+commit.9cf63910`. Go to Compile, and Click `Start Compile`. 
 5. Go to Run Tab,and select `JavaScript VM` (Follow the table below)
 
-      | Environment  | JavaScript VM          |
-      | -------------|:----------------------:|
-      | Account      | 0xca3...a733c(100ether)|
-      | Gas limit    | 3000000                |
-      | Value        | 0            ether     |
+      | Environment  | JavaScript VM           |
+      | -------------|:-----------------------:|
+      | Account      | 0xca3...a733c (100ether)|
+      | Gas limit    | 3000000                 |
+      | Value        | 0            ether      |
 
 ## Recurring Lottery
 1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
