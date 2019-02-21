@@ -95,8 +95,8 @@ RecurringLottery.sol
       | round                                     |                         |
       | rounds                                    |`uint256`                |
       | withdraw                                  |                         |
-      | drawWinner                                |`uint256 roundNumber     |
-      | deleteRound                               |`uint256 _round          |
+      | drawWinner                                |`uint256 roundNumber`    |
+      | deleteRound                               |`uint256 _round`         |
       | buy                                       |                         |
 
 * **TICKET_PRICE** -  The price of a single ticket. This can be small because multiple tickets can be purchased at once.
@@ -141,9 +141,15 @@ RNGLottery.sol
       | tickets                                   |`uint256`                |
       | winner                                    |                         |
       | withdraw                                  |                         |
+      | reveal                                    |`uint256 N`              |
+      | drawWinner                                |                         |
+      | buy                                       |`bytes32 commitment`     |
       
-      
-      
+* **seed** - This is the random seed we will use to determine a winner. Each time a secret number is revealed, the seed is modified to incorporate the reveal.
+* **commitments** - Every player submits a commitment with their ticket purchase. This mapping stores those commitments.
+* **ticketDeadline** - The equivalent of endBlock from earlier contracts. Tickets cannot be purchased after this block number.
+* **revealDeadline** - The reveal phase is new and requires a deadline as well. All reveals must occur after the ticket deadline and before the reveal deadline.
+
 ## Powerball Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 PowerballLottery.sol
