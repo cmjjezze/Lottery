@@ -33,8 +33,8 @@ Participant Address for the Remix:
 SimpleLottery.sol
 2. Open your browser and enter this link: https://ethereum.github.io/browser-solidity/#optimize=false
 3. Copy and Paste the code from [SimpleLottery.sol](https://github.com/cmjjezze/Lottery/blob/master/SimpleLottery.sol)
-
-
+4. Click on Settings, and Pick `0.4.18+commit.9cf63910`. Go to Compile, and Click `Start Compile`. 
+ 
 ## Recurring Lottery
 1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 SimpleLottery.sol
