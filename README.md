@@ -45,17 +45,12 @@ SimpleLottery.sol
 6. Below the above table, you will see a textbox `uint256 duration` with a **Create** button.
 7. Enter `60`(seconds) for testing, So that the lottery start and ends after 60 seconds or 1 minute.
 8. Once you click the **Create** button, you will a table below.
- 
-      | SimpleLotter at 0x692...77b3a(memory)  |
+ SimpleLotter at 0x692...77b3a(memory)
+      | Environment  | JavaScript VM           |
       | -------------|:-----------------------:|
-      | fallback                               |
-      | TICKET_PRICE                           |
-      | ticketingCloses                        |
-      | tickets      |`uint256`                |
-      | winner                                 |
-      | withdraw                               |
-      | drawWinner                             |
-      | buy                                    |
+      | Account      | 0xca3...a733c (100ether)|
+      | Gas limit    | 3000000                 |
+      | Value        | 0            ether      |
 
 9. 
 ## Recurring Lottery
