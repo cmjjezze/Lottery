@@ -28,6 +28,7 @@ Participant Address for the Remix:
 0xdd870fa1b7c4700f2bd7f44238821c26f7392148
 ```
 
+
 ## Simple Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 SimpleLottery.sol
@@ -67,6 +68,7 @@ SimpleLottery.sol
 11. Click **drawWinner** button, for choosing the winner after the duration of the lottery has finished.
 12. For viewing the winner after choosing the winner for the lottery, Click **winner** button to display the winner's address.
 13. For claiming the lottery price, the winner's address must be selected first from the first table and click the **withdraw** button.
+
 
 ## Recurring Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
@@ -150,12 +152,17 @@ RNGLottery.sol
 * **ticketDeadline** - The equivalent of endBlock from earlier contracts. Tickets cannot be purchased after this block number.
 * **revealDeadline** - The reveal phase is new and requires a deadline as well. All reveals must occur after the ticket deadline and before the reveal deadline.
 
-9.  Create the commitments first for the three participants with its **Account** address. 
+9.  Create the commitments first for the three participants with its **Account** address. For the `address user`, Select from the Participant Adresses above and for the `uint256 N` choose your desired number you would like to bet on. And click the **createCommitment** button. And you must see your commitment hash addres, for example(`0xbf32696fe932aecd7cd13363da23b3380fa5ffec108f548d105dffbf00d2914a`)
+10. Copy and Paste the hash address to the **buy** button textboox `bytes32 commitment`
+11. Put a `0.01` for the value of ether.
+12. And repeat again to step 10 for the other two participant's.
+13. Input the number for each address from the **reveal** button text, `uint256 N` for each address you commited. and click the **reveal** button.
+14. Click the **revealDeadline** button to push through the buyed ticket to the lottery and to see the block number of the deadline.
+15. Click the **drawWinner** button to pick the winner for the lottery.
+16. Click the **winner** button to see the winner's address
+17. For claiming the lottery price, the winner's address must be selected first from the first table and click the **withdraw** button.
 
-| createCommitment                          |`address user, uint256 N`|
 
-10. Put a `0.01` for the value of ether.
-10. 
 ## Powerball Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 PowerballLottery.sol
