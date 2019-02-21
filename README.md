@@ -86,7 +86,7 @@ RecurringLottery.sol
 7.  Enter `3`(three participants could buy per round for the ticket) for testing, After the 3rd participant have bought the ticket for the lottery. The round will proceed to the next round and you can pick the winner for the previous/first round.
 8.  Once you click the **Create** button, you will a table below.
  
-      | SimpleLottery at ............. (memory)|                         |
+      | RecurringLottery at ............. (memory)|                         |
       | ---------------------------------------|:-----------------------:|
       | (fallback)                             |                         |
       | TICKET_PRICE                           |                         |
