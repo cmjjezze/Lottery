@@ -63,7 +63,7 @@ SimpleLottery.sol
 * **winner** - The winner of the lottery. This is the user who gets to claim the prize. The prize cannot be withdrawn until the winner is set.
 
 9.  Put a `0.01` for the value of ether.
-10. Click **buy** button after you set the value of ether, You can buy tickets as long the duration is not end. It will prompt an error if the duration is ended. You can also change the address upon buying ticket.
+10. Click **buy** button after you set the value of ether, You can buy tickets as long the duration is not yet ended. It will prompt an error if the duration is ended. You can also change the address upon buying ticket.
 11. Click **drawWinner** button, for choosing the winner after the duration of the lottery has finished.
 12. For viewing the winner after choosing the winner for the lottery, Click **winner** button to display the winner's address.
 13. For claiming the lottery price, the winner's address must be selected first from the first table and click the **withdraw** button.
@@ -87,17 +87,32 @@ RecurringLottery.sol
 8.  Once you click the **Create** button, you will a table below.
  
       | RecurringLottery at ............. (memory)|                         |
-      | ---------------------------------------|:-----------------------:|
-      | (fallback)                             |                         |
-      | TICKET_PRICE                           |                         |
-      | ticketingCloses                        |                         |
-      | tickets                                |`uint256`                |
-      | winner                                 |                         |
-      | withdraw                               |                         |
-      | drawWinner                             |                         |
-      | buy                                    |                         |
+      | ------------------------------------------|:-----------------------:|
+      | (fallback)                                |                         |
+      | TICKET_PRICE                              |                         |
+      | balances                                  |`address`                |
+      | duration                                  |                         |
+      | round                                     |                         |
+      | rounds                                    |`uint256`                |
+      | withdraw                                  |                         |
+      | drawWinner                                |`uint256 roundNumber     |
+      | deleteRound                               |`uint256 _round          |
+      | buy                                       |                         |
 
-## RNG Lottery
+* **TICKET_PRICE** -  The price of a single ticket. This can be small because multiple tickets can be purchased at once.
+* **round** - The round number. This variable allows the lottery to be recurring.
+* **rounds** - A mapping from round numbers to Round structs.
+* **duration** - The duration of a single round in blocks. One day spans approximately 5,500 blocks.
+* **balances** - A standard mapping of user balances.
+
+9.  Put a `0.01` for the value of ether.
+10. Click **buy** button after you set the value of ether, You can buy tickets 3 times because you set`3` participants upon creating the lottery. 
+11. Buy ticket's three times with different addresses, and click the **round** button to know the round number that is playing. 
+12. Pick the winner for the first round by setting `1` in the **drawWinner** textbox button and click it to pick the winner for the specified round.
+13. To delete the round youwould like, you can just select the round number and input it in the **deleteRpund** textbox button `uint256 _round`.
+
+
+## RNG(Random Number Generated) Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 RNGLottery.sol
 2.  Open your browser and enter this link: https://ethereum.github.io/browser-solidity/#optimize=false
@@ -110,7 +125,25 @@ RNGLottery.sol
       | Account      | 0xca3...a733c (100ether)|
       | Gas limit    | 3000000                 |
       | Value        | 0            ether      |
-
+      
+6.  Same with the recurring lottery for the setting up of duration. The setted duration is the number of participants that can buy the ticket for the lottery. Below the table you will see a textbox `uint256 duration, uint256 revealDuration` with a **Create** button. The reveal deadline is the turn's of every participant makes. Makes the reveal duration twice than the duration.
+7.  Enter `3`(three participants could buy per round for the ticket) for `uint256 duration` and `5` for `uint256 revealDuration`.
+8.  Once you click the **Create** button, you will a table below.
+ 
+      | RecurringLottery at ............. (memory)|                         |
+      | ------------------------------------------|:-----------------------:|
+      | TICKET_PRICE                              |                         |
+      | commitments                               |`address`                |
+      | createCommitment                          |`address user, uint256 N`|
+      | revealDeadline                            |                         |
+      | seed                                      |                         |
+      | ticketDeadline                            |                         |
+      | tickets                                   |`uint256`                |
+      | winner                                    |                         |
+      | withdraw                                  |                         |
+      
+      
+      
 ## Powerball Lottery
 1.  Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 PowerballLottery.sol
