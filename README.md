@@ -57,7 +57,12 @@ SimpleLottery.sol
       | drawWinner                             |                         |
       | buy                                    |                         |
 
-9. 
+* TICKET_PRICE - The price of a lottery ticket. When a user buys a ticket, they will be sending this value along with their transaction.
+* ticketingCloses - A UNIX timestamp. Tickets can be purchased up until this time. The winner is drawn at least 5 minutes after this time so that the random blockhash is unknown during the ticketing process.
+* tickets - A list of addresses that have bought tickets. An address can be in the array multiple times if the user buys multiple tickets.
+* winner - The winner of the lottery. This is the user who gets to claim the prize. The prize cannot be withdrawn until the winner is set.
+
+
 ## Recurring Lottery
 1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 SimpleLottery.sol
