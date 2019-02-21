@@ -41,6 +41,7 @@ SimpleLottery.sol
       | Account      | 0xca3...a733c (100ether)|
       | Gas limit    | 3000000                 |
       | Value        | 0            ether      |
+                   table SL 1
 
 6. Below the above table, you will see a textbox `uint256 duration` with a **Create** button.
 7. Enter `60`(seconds) for testing, So that the lottery start and ends after 60 seconds or 1 minute.
@@ -62,7 +63,7 @@ SimpleLottery.sol
 * **tickets** - A list of addresses that have bought tickets. An address can be in the array multiple times if the user buys multiple tickets.
 * **winner** - The winner of the lottery. This is the user who gets to claim the prize. The prize cannot be withdrawn until the winner is set.
 
-
+9. Put a `0.01` value from
 ## Recurring Lottery
 1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 SimpleLottery.sol
