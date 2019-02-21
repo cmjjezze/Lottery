@@ -176,3 +176,10 @@ PowerballLottery.sol
       | Account      | 0xca3...a733c (100ether)|
       | Gas limit    | 3000000                 |
       | Value        | 0            ether      |
+      
+      
+      
+* **MAX_POWERBALL_NUMBER** - The Powerball number has a more constricted range than the first five standard numbers. Official Powerball rules set this to 26.
+* **ROUND_LENGTH** - The length of a round in seconds. This is set to 3 days for the full game, but the test script provided later in the chapter requires this to be set to 15 seconds for speedier rounds.
+* **round** - The current round number. Tickets bought for a round are matched against only the winning numbers for that round.
+* **rounds** - A mapping from round numbers to Round structs.
