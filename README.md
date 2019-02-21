@@ -42,6 +42,9 @@ SimpleLottery.sol
       | Gas limit    | 3000000                 |
       | Value        | 0            ether      |
 
+6. Below the above table, you will see a textbox `uint256 duration` with a **Create** button.
+7. Enter `60`(seconds) for testing, So that the lottery start and ends after 60 seconds or 1 minute.
+
 ## Recurring Lottery
 1. Go to the folder that you clone earlier and go to the directory of the smart contract solidity file. <br>
 SimpleLottery.sol
