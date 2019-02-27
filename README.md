@@ -183,3 +183,6 @@ PowerballLottery.sol
 * **ROUND_LENGTH** - The length of a round in seconds. This is set to 3 days for the full game, but the test script provided later in the chapter requires this to be set to 15 seconds for speedier rounds.
 * **round** - The current round number. Tickets bought for a round are matched against only the winning numbers for that round.
 * **rounds** - A mapping from round numbers to Round structs.
+
+**POWERBALL Winning Mechanics**
+![powerball](https://user-images.githubusercontent.com/44287896/53456497-a3776a00-3a69-11e9-9bf1-0431c774879f.png)
